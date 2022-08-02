@@ -7,7 +7,8 @@ SELECT
   character_name AS chef
 FROM characters c
   JOIN lasagnas l
-    ON l.chef_id = c.id;
+    ON l.chef_id = c.id
+ORDER by chef;
 
 SELECT 
   character_name,
